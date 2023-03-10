@@ -120,16 +120,14 @@ main {
 
 .card:nth-child(2) .card__storage--left::after {
     content: "";
-    width: 30px;
-    height: 20px;
+    width: 31px;
+    height: 25px;
     position: absolute;
     clip-path: polygon(100% 0%, 100% 100%, 0% 0%);
     -webkit-clip-path: polygon(100% 0%, 100% 100%, 0% 0%);
     background-color: #ffffff;
-    left: 100%;
-    top: 100%;
-    transform: translate(-100%);
-    z-index: 100;
+    left: 81%;
+    top: 90%;
 }
 
 .card:nth-child(2) .card__storage--left span:nth-child(1) {
