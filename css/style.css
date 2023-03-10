@@ -126,7 +126,8 @@ main {
     clip-path: polygon(100% 0%, 100% 100%, 0% 0%);
     -webkit-clip-path: polygon(100% 0%, 100% 100%, 0% 0%);
     background-color: #ffffff;
-    left: 81%;
+    left: 100%;
+    transform: translateX(-100%);
     top: 100%;
 }
 
